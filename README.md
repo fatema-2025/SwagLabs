@@ -24,17 +24,21 @@ SwagLabs is an Ecommerce application that provides various ecommerce services an
 
 ## Features
 
-- *Account Management*: Login by user accounts.
-- *Transactions*: Perform purchasing various products randomly.
-- *Account Statements*: User can add product cart and checkout.
-- *Security*: Ensure secure and encrypted purchasing processes.
+1. User Authentication: Supports login with multiple user roles to test access control and edge cases.
+2. Product Catalog: Displays a variety of products with detailed names, images, descriptions, and prices.
+3. Sorting and Filtering: Provides options to sort products by price or name for an enhanced user experience.
+4. Shopping Cart: Allows users to add, remove, and review selected items before proceeding to checkout.
+5. Checkout Workflow: Includes input validation for user details (e.g., name, zip code) and displays an order summary for confirmation.
+6. Error Simulation: Contains intentional bugs for debugging and testing (e.g., broken images, problematic data).
+7. Performance Optimization: Designed to handle stress testing scenarios for evaluating system performance.
+8. Cross-Platform Compatibility: Responsive design ensures usability across desktop, tablet, and mobile devices.
 
 ## Installation
 
 To set up SwagLabs application locally, follow these steps:
 
 1. Clone the repository:
-*   git clone https://github.com/fatema-2025/TutorialsNinja
+*   git clone https://github.com/fatema-2025/SwagLabs
 2. Navigate to the project directory:
 *   cd SwagLabs
 3. Install dependencies:
