@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sprint1">
+    <test name="Login on SwagLab with valid credential ">
+        <classes>
+            <class name="testCases.TC02_Products">
+                <methods>
+                    <include name="verifyUserAddProductToCart_P"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
